@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pazham_counter/counter.dart';
 
 void main() {
   runApp(
@@ -14,6 +15,7 @@ void main() {
           child: Column(
             children: [
               Center(child: Image.asset('images/image.webp', width: 400)),
+              Counter(),
             ],
           ),
         ),
