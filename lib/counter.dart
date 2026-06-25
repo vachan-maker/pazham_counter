@@ -27,7 +27,10 @@ class _CounterState extends State<Counter> {
             child: Image.asset('images/image.webp', width: 400),
           ),
         ),
-        Text('$count'),
+        Text(
+          '$count',
+          style: TextStyle(fontSize: 48, fontWeight: FontWeight.bold),
+        ),
       ],
     );
   }

@@ -12,7 +12,15 @@ void main() {
               colors: [Colors.lightBlueAccent, Colors.blue],
             ),
           ),
-          child: Column(children: [Counter()]),
+          child: Column(
+            children: [
+              Text(
+                'Pazham Counter',
+                style: TextStyle(fontWeight: FontWeight.bold),
+              ),
+              Counter(),
+            ],
+          ),
         ),
       ),
     ),
