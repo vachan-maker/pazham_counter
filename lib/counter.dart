@@ -19,6 +19,16 @@ class _CounterState extends State<Counter> {
 
   @override
   Widget build(BuildContext build) {
-    return Container(child: Text('$count'));
+    return Column(
+      children: [
+        Center(
+          child: GestureDetector(
+            onTap: increaseCount,
+            child: Image.asset('images/image.webp', width: 400),
+          ),
+        ),
+        Text('$count'),
+      ],
+    );
   }
 }

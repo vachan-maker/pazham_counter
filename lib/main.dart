@@ -12,12 +12,7 @@ void main() {
               colors: [Colors.lightBlueAccent, Colors.blue],
             ),
           ),
-          child: Column(
-            children: [
-              Center(child: Image.asset('images/image.webp', width: 400)),
-              Counter(),
-            ],
-          ),
+          child: Column(children: [Counter()]),
         ),
       ),
     ),
